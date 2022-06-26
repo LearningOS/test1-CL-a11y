@@ -60,6 +60,7 @@ pub fn rust_main() -> ! {
         boot_stack as usize, boot_stack_top as usize
     );
     println!(".bss [{:#x}, {:#x})", sbss as usize, ebss as usize);
+    println!("1111");
 
     #[cfg(feature = "board_qemu")]
     use crate::board::QEMUExit;
