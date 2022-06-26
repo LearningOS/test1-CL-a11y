@@ -76,6 +76,7 @@
 <span id="71">71</span>
 <span id="72">72</span>
 <span id="73">73</span>
+<span id="74">74</span>
 </pre><pre class="rust"><code><span class="doccomment">//! The main module and entrypoint</span>
 <span class="doccomment">//!</span>
 <span class="doccomment">//! The operating system and app also starts in this module. Kernel code starts</span>
@@ -138,6 +139,7 @@
         <span class="ident">boot_stack</span> <span class="kw">as</span> <span class="ident">usize</span>, <span class="ident">boot_stack_top</span> <span class="kw">as</span> <span class="ident">usize</span>
     );
     <span class="macro">println!</span>(<span class="string">&quot;.bss [{:#x}, {:#x})&quot;</span>, <span class="ident">sbss</span> <span class="kw">as</span> <span class="ident">usize</span>, <span class="ident">ebss</span> <span class="kw">as</span> <span class="ident">usize</span>);
+    <span class="macro">println!</span>(<span class="string">&quot;1111&quot;</span>);
 
     <span class="attribute">#[<span class="ident">cfg</span>(<span class="ident">feature</span> <span class="op">=</span> <span class="string">&quot;board_qemu&quot;</span>)]</span>
     <span class="kw">use</span> <span class="ident"><span class="kw">crate</span>::board::QEMUExit</span>;
