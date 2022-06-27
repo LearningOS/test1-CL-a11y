@@ -1,6 +1,10 @@
 DOCKER_NAME ?= dinghao188/rcore-tutorial
 .PHONY: docker build_docker
 
+
+foo:
+	echo test11111
+	
 docker:
 	echo hello world
 
