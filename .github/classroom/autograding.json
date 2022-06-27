@@ -3,9 +3,9 @@
     {
       "name": "mytest",
       "setup": "",
-      "run": "make",
-      "input": "",
-      "output": "",
+      "run": "echo",
+      "input": "hello world!!!!!",
+      "output": "hello world-----",
       "comparison": "included",
       "timeout": 10,
       "points": null
