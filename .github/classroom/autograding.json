@@ -4,8 +4,8 @@
       "name": "mytest",
       "setup": "",
       "run": "make",
-      "input": "1",
-      "output": "hello world",
+      "input": "",
+      "output": "",
       "comparison": "included",
       "timeout": 10,
       "points": null
