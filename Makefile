@@ -8,6 +8,3 @@ build_docker:
 	docker build -t ${DOCKER_NAME} .
 fmt:
 	cd os ; cargo fmt;  cd ..
-
-mytest:
-	echo "hello world!"
