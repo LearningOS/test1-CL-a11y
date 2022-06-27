@@ -6,5 +6,9 @@ docker:
 
 build_docker: 
 	docker build -t ${DOCKER_NAME} .
+
 fmt:
 	cd os ; cargo fmt;  cd ..
+
+1:
+	echo hello world
