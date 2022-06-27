@@ -13,4 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Run usertests
+        run: echo hello world
       - uses: education/autograding@v1
